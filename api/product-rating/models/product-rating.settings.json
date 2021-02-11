@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_ratings",
+  "info": {
+    "name": "Product Rating"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "rating": {
+      "type": "decimal"
+    }
+  }
+}

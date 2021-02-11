@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_likes",
+  "info": {
+    "name": "Product Like"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "like": {
+      "type": "integer"
+    }
+  }
+}
